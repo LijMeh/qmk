@@ -49,7 +49,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_LIGHTS] = LAYOUT(DEBUG, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                                                RGB_TOG, RGB_MOD, RGB_HUI, RGB_SAI, RGB_VAI, KC_NO,
                      KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                                                KC_NO, RGB_RMOD, RGB_HUD, RGB_SAD, RGB_VAD, KC_NO,
                      KC_NO, BL_TOGG, BL_STEP, BL_BRTG, BL_ON, BL_INC,                                         KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
-                     KC_NO, KC_NO, KC_NO, KC_NO, BL_OFF, BL_DEC, KC_NO,                           LGUI(KC_W), RGB_M_P, RGB_M_B, RGB_M_R, RGB_M_SW, RGB_M_SN, 9, 
+                     KC_NO, KC_NO, KC_NO, KC_NO, BL_OFF, BL_DEC, TG(3),                           LGUI(KC_W), RGB_M_P, RGB_M_B, RGB_M_R, RGB_M_SW, RGB_M_SN, 9, 
                                                   KC_NO, KC_NO, KC_NO,                                        KC_NO, KC_NO, KC_NO),
   
   [_NUMPAD] = LAYOUT(KC_ESC, KC_NO, KC_NO, KC_PSLS, KC_PAST, KC_PMNS,                                         KC_NO, KC_NO, KC_NO, KC_LPRN, KC_RPRN, KC_NO,
